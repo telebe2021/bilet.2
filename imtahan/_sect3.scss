@@ -1,0 +1,47 @@
+.sect3{
+    width: 100%;
+
+    .ikili{
+        display: flex;
+      div{
+         width: 100%;  
+         padding: 100px;    
+           img{
+        width: 100%;
+        height: 60%;
+        .dad{
+            height: 80px;
+            width: 60%;
+            z-index: 1111;
+            bottom: -40px;
+            border: 2px solid black;
+        }
+      }
+
+
+        }
+        .metn{
+            padding: 60px;
+             display: flex;
+             justify-content: center;
+             align-items: start;
+             flex-direction: column;
+             gap: 20px;
+             width: 40%;
+             h1{
+                font-size: 18px;
+                color: grey;
+             }
+             h2{
+                font-weight: 900;
+                font-size: 40px;
+             }
+
+
+        }
+        button{
+            width: 120px;
+            height: 30px;
+        }
+    }
+}

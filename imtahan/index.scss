@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.con{
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: auto;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: aqua
+}
+@import'nav';
+@import'sect1';
+@import'sect2';
+@import'sect3';
+@import'sect4';
+@import'sect5';
+@import'add';
+@import'footer';
+
+
